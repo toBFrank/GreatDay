@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #4C2B12;
+}
+
+header {
+  padding: 50px 20px 0px;
+}
+header h1 {
+  font-family: "Baskerville", "Times New Roman", Times, serif;
+  color: #7f5235;
+  font-size: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+
+main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 20px;
+}
+
+.searchbox {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  
+  border: none;
+  outline: none;
+  background: none;
+
+  border-radius: 40px;
+  background-color: rgba(16, 23, 32, 0.3);
+  color: #bb8954;
+  font-size: 20px;
+}
+.searchbox::placeholder {
+  color: #7f5235;
+  opacity: 0.5;
+}
+.searchbox:focus {
+  border: 2px solid #bb8954;
+}
